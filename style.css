@@ -17,25 +17,19 @@ body{
     display: flex;
     align-items: center;
 }
-.navbar__blinkit{
+.navbar__logo{
     border-right: 0.12rem solid #eeee;
     font-size: 4.5rem;
-    font-family: inherit;
     letter-spacing: -0.3rem;
     font-weight: bold;
-    height: 8rem;
     padding-right: 3rem;
     padding-left: 3rem;
 }
-.navbar__blink-yellow{
+.navbar__logo-yellow{
     color: #f8cb46;  
 }
-.navbar__it-green{
+.navbar__logo-green{
     color: #54b226;
-}
-.navbar__left{
-    display: flex;
-    align-items: center;
 }
 .navbar__delivery-details{
     margin-left: 4.5rem;
@@ -63,7 +57,6 @@ body{
 }
 .navbar__login:hover{
     border-radius: 0.5rem;
-    padding: 1.5rem;
     cursor: pointer;
     background-color: #dadada;
     transition-duration: 0.5s;
@@ -115,7 +108,7 @@ body{
     grid-template-columns: auto auto auto auto auto;
     border: 0.15rem solid #d6d6d6;
     border-top: 0rem;
-    border-radius: 0.45rem;
+    border-radius: 0rem 0rem 0.45rem 0.45rem;
 }
 .products-container__category{
     grid-column-start: 1;
