@@ -1,0 +1,116 @@
+{
+  "products": [
+    {
+      "discount": "10",
+      "url": "model/img/potato.png",
+      "name": "New Potato (Aloo)",
+      "sourcedAt": "1 am",
+      "quantity": "1kg",
+      "price": "19"
+    },
+    {
+      "discount": "10",
+      "url": "model/img/potato.png",
+      "name": "New Potato (Aloo)",
+      "sourcedAt": "1 am",
+      "quantity": "1kg",
+      "price": "19"
+    },
+    {
+      "discount": "10",
+      "url": "model/img/potato.png",
+      "name": "New Potato (Aloo)",
+      "sourcedAt": "1 am",
+      "quantity": "1kg",
+      "price": "19"
+    },
+    {
+      "discount": "10",
+      "url": "model/img/potato.png",
+      "name": "New Potato (Aloo)",
+      "sourcedAt": "1 am",
+      "quantity": "1kg",
+      "price": "19"
+    },
+    {
+      "discount": "10",
+      "url": "model/img/potato.png",
+      "name": "New Potato (Aloo)",
+      "sourcedAt": "1 am",
+      "quantity": "1kg",
+      "price": "19"
+    },
+    {
+      "discount": "10",
+      "url": "model/img/potato.png",
+      "name": "New Potato (Aloo)",
+      "sourcedAt": "1 am",
+      "quantity": "1kg",
+      "price": "19"
+    },
+    {
+      "discount": "10",
+      "url": "model/img/potato.png",
+      "name": "New Potato (Aloo)",
+      "sourcedAt": "1 am",
+      "quantity": "1kg",
+      "price": "19"
+    },
+    {
+      "discount": "10",
+      "url": "model/img/potato.png",
+      "name": "New Potato (Aloo)",
+      "sourcedAt": "1 am",
+      "quantity": "1kg",
+      "price": "19"
+    },
+    {
+      "discount": "10",
+      "url": "model/img/potato.png",
+      "name": "New Potato (Aloo)",
+      "sourcedAt": "1 am",
+      "quantity": "1kg",
+      "price": "19"
+    }
+  ],
+  "leftTabCategories": [
+    {
+      "categoryName":"All",
+      "categoryUrl":"model/img/potato.png"
+    },
+    {
+      "categoryName":"Fresh Fruits",
+      "categoryUrl":"model/img/potato.png"
+    },
+    {
+      "categoryName":"Fresh Vegetables",
+      "categoryUrl":"model/img/apple.png"
+    },
+    {
+      "categoryName":"Exotics",
+      "categoryUrl":"model/img/grapes.png"
+    },
+    {
+      "categoryName":"Seasonal",
+      "categoryUrl":"model/img/carrots.png"
+    },
+    {
+      "categoryName":"Organic & Hydroponic",
+      "categoryUrl":"model/img/kale.png"
+    },
+    {
+      "categoryName":"Freshly Cut & Sprouts",
+      "categoryUrl":"model/img/fruits.png"
+    }
+    
+  ],
+  "topTabCategoryList":[
+    "Vegetables and Fruits",
+    "Dairy & Breakfast",
+    "Munchies",
+    "Cold Drinks & Juices",
+    "Instant and Frozen Food",
+    "Tea, Coffee & Health Drinks",
+    "Bakery & Biscuits"
+  ]
+}

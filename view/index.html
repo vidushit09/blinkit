@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Blinkit</title>
+</head>
+
+<body>
+    <div class="navbar display-flex">
+        <div class="navbar__left display-flex">
+            <div class="navbar__logo display-flex">
+                <span class="navbar__logo-yellow">blink</span>
+                <span class="navbar__logo-green">it</span>
+            </div>
+            <div class="navbar__delivery-details">
+                <div class="navbar__delivery-time">Delivery in 10 minutes</div>
+                <div class="navbar__location">
+                    Delhi, India <i class="fa fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="navbar__right">
+            <button class="navbar__login">Login</button>
+            <button class="navbar__mycart">
+                <i class="fa fa-shopping-cart"></i>My Cart
+            </button>
+        </div>
+    </div>
+    <ul class="category-list display-flex" id="category-list">
+
+    </ul>
+    <div class="products-container">
+        <ul class="products-container__category" id="products-container__category">
+        </ul>
+        <div class="products-container__items-container">
+            <div class="products-container__items-header display-flex">
+                <div class="products-container__buy-fresh-online">
+                    Buy Fresh Vegetables Online
+                </div>
+                <div class="products-container__items-header-right display-flex">
+                    <div class="products-container__sort">Sort By</div>
+                    <select name="dropdown" id="sort-dropdown" class="products-container__dropdown">
+                        <option>Relevance</option>
+                        <option>Price (Low to High)</option>
+                        <option>Price (High to Low)</option>
+                        <option>Discount (High to Low)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="products-container__items" id="products-container__items">
+
+            </div>
+        </div>
+    </div>
+    <div class="advertisement-cards display-flex">
+        <div class="advertisement-cards__card display-flex">
+            <img src="../model/img/basket.png" alt="" class="advertisement-cards__img" />
+            <div class="advertisement-cards__title">Superfast Delivery</div>
+            <div class="advertisement-cards__content">
+                Get your order delivered to your doorstep at the earliest from dark
+                stores near you
+            </div>
+        </div>
+        <div class="advertisement-cards__card display-flex">
+            <img src="../model/img/basket.png" alt="" class="advertisement-cards__img" />
+            <div class="advertisement-cards__title">Best Prices & Offers</div>
+            <div class="advertisement-cards__content">
+                Best price destination with offers directly from the manufacturers
+            </div>
+        </div>
+        <div class="advertisement-cards__card display-flex">
+            <img src="../model/img/basket.png" alt="" class="advertisement-cards__img" />
+            <div class="advertisement-cards__title">Wide Assortment</div>
+            <div class="advertisement-cards__content">
+                Choose from 5000+ products across food, personal care, household &
+                other categories
+            </div>
+        </div>
+    </div>
+    <div class="disclaimer">
+        “Blinkit” is owned & managed by "Blink Commerce Private Limited" (formerly
+        known as Grofers India Private Limited) and is not related, linked or
+        interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a
+        real estate services business operated by “Redstone Consultancy Services
+        Private Limited”.
+    </div>
+    <div class="footer display-flex">
+        <div class="footer__left display-flex">
+            <div class="footer__copyright">
+                © Blink Commerce Private Limited (formerly known as Grofers India
+                Private Limited), 2016-2023
+            </div>
+            <div class="footer__download-options display-flex">
+                <div class="footer__download-app">Download App</div>
+                <button class="footer__download-button">
+                    <img src="../model/img/appStore.png" alt="" />
+                </button>
+                <button class="footer__download-button">
+                    <img src="../model/img/playStore.png" alt="" />
+                </button>
+            </div>
+        </div>
+        <div class="footer__right">
+            <button class="footer__facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </button>
+            <button class="footer__twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </button>
+            <button class="footer__instagram">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </button>
+            <button class="footer__linkedin">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </button>
+        </div>
+    </div>
+</body>
+<script src="../controller/script.js"></script>
+
+</html>
