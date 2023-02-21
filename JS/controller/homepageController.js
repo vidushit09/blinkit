@@ -4,7 +4,10 @@ import {homepageView} from "../view/homepageView.js";
 const homepageController= {
     init: function(data){
         homepageModel.setData(data);
-
+        if(window.localStorage.getItem("cartTotal")!=undefined){
+            homepageView.changeCartButton();
+        }
+            
         homepageView.init();
     },
     getCategories: function(){
