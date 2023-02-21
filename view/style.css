@@ -62,13 +62,17 @@ body{
 }
 .navbar__mycart{
     background-color: rgb(12, 131, 31);
-    padding: 1.5rem;
+    width: 11rem;
+    padding: 1.5rem 0rem;
     color: white;
     margin: 0rem 4.48rem 0rem 4.5rem;
     border-radius: 0.75rem;
     font-size: 1.51rem;
     font-weight: bold;
     border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .navbar__mycart:hover{
     cursor: pointer;
@@ -76,6 +80,10 @@ body{
 .navbar__mycart i{
     font-size: 1.68rem;
     margin-right: 0.9rem;
+}
+.my-cart-text{
+    display: none;
+    text-align: left;
 }
 .category-list{
     margin: 0rem;
@@ -96,9 +104,41 @@ body{
 }
 .category-list__list-item:hover{
     cursor: pointer;
-    background-color: #8080801c
+    background-color: #8080801c;
 }
+#more li{
+    border: 0.002rem solid #00000036;
+    border-top: none;
+    padding: 1.5rem;
+    display: none;
+}
+#dropdown {
+    position: absolute;
+    z-index: 1;
+    top: 14.2rem;
+    padding: 0rem;
+    display: none;
+    background: white;
+    border: 0.002rem solid #00000036;
+    border-top: none;
+    right: 10rem;
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
 
+}
+#more:hover #dropdown{
+    display: block;
+}
+#more:hover li{
+    display: block;
+}
+#dropdown li:hover{
+    cursor: pointer;
+    background-color: #8080801c;
+}
+.display--block{
+    display: block;
+}
 .products-container{
     width: 111.94rem;
     margin: auto;
@@ -157,6 +197,7 @@ body{
 .products-container__items-header{
     justify-content: space-between;
     padding: 1.65rem 1.5rem;
+    width: 83rem;
 } 
 .products-container__sort{
     font-size: 1.34rem;
@@ -175,13 +216,14 @@ body{
 }
 
 .products-container__items{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .products-container__item{
     padding: 1.5rem;
     border: 0.07rem solid #d6d6d6;
+    width: 18.53rem;
 }
 .products-container__item-image{
     position: relative;
@@ -192,6 +234,7 @@ body{
     width: 70%;
     display: block;
     margin: auto;
+    height: 84%;
 }
 .products-container__discount{
     background: rgb(37, 111, 239);
@@ -222,11 +265,24 @@ body{
     justify-content: space-between;
     margin-top: 3rem;
 }
-.products-container__item--add{
+.products-container__item--add-default{
     color: rgb(12, 131, 31);
     border: 0.13rem solid rgb(12,131,31);
     background-color: #f6fff9;
     padding: 0rem 2.1rem;
+    border-radius: 0.75rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.products-container__item--add-updated{
+    color: white;
+    border: 0.13rem solid rgb(12,131,31);
+    background-color: rgb(12, 131, 31);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 0.5rem;
+    width: 6.3rem;
     border-radius: 0.75rem;
     font-weight: bold;
     font-size: 1.5rem;
@@ -236,12 +292,12 @@ body{
     background-color: #e4faec;
 }
 .products-container__actual-price{
-    font-size: 1.51rem;
-}
-.products-container__discounted-price{
     font-size: 1.34rem;
     text-decoration: line-through;
     color: rgb(153, 153, 153);
+}
+.products-container__discounted-price{
+    font-size: 1.51rem;
 }
 .advertisement-cards{
     width: 122.4rem;

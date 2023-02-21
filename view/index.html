@@ -27,7 +27,10 @@
         <div class="navbar__right">
             <button class="navbar__login">Login</button>
             <button class="navbar__mycart">
-                <i class="fa fa-shopping-cart"></i>My Cart
+                <i class="fa fa-shopping-cart"></i>
+                <div class="my-cart">My Cart</div>
+                <div class="my-cart-text">
+                </div>
             </button>
         </div>
     </div>
@@ -44,7 +47,7 @@
                 </div>
                 <div class="products-container__items-header-right display-flex">
                     <div class="products-container__sort">Sort By</div>
-                    <select name="dropdown" id="sort-dropdown" class="products-container__dropdown">
+                    <select name="dropdown" id="sort-dropdown" class="products-container__dropdown" onchange="selectChange()">
                         <option>Relevance</option>
                         <option>Price (Low to High)</option>
                         <option>Price (High to Low)</option>
@@ -121,6 +124,11 @@
         </div>
     </div>
 </body>
+<script src="../controller/filter.js"></script>
+<script src="../controller/addButton.js"></script>
+<script src="../controller/displayProducts.js"></script>
+<script src="../controller/sortDropdown.js"></script>
+<script src="../controller/updateCart.js"></script>
 <script src="../controller/script.js"></script>
 
 </html>
