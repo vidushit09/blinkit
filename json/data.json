@@ -3,7 +3,7 @@
     {
       "id":1,
       "discount": "15",
-      "url": "model/img/potato.png",
+      "url": "img/potato.png",
       "name": "New Potato (Aloo)",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -14,7 +14,7 @@
     {
       "id":2,
       "discount": "15",
-      "url": "model/img/potato.png",
+      "url": "img/potato.png",
       "name": "New Potato (Aloo)",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -25,7 +25,7 @@
     {
       "id":3,
       "discount": "20",
-      "url": "model/img/potato.png",
+      "url": "img/potato.png",
       "name": "New Potato (Aloo)",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -36,7 +36,7 @@
     {
       "id":4,
       "discount": "1",
-      "url": "model/img/potato.png",
+      "url": "img/potato.png",
       "name": "New Potato (Aloo)",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -47,7 +47,7 @@
     {
       "id":5,
       "discount": "10",
-      "url": "model/img/potato.png",
+      "url": "img/potato.png",
       "name": "New Potato (Aloo)",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -57,7 +57,7 @@
     },
     {"id":6,
       "discount": "10",
-      "url": "model/img/milk.png",
+      "url": "img/milk.png",
       "name": "Milk",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -68,7 +68,7 @@
     {
       "id":7,
       "discount": "10",
-      "url": "model/img/bread.png",
+      "url": "img/bread.png",
       "name": "Pav",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -79,7 +79,7 @@
     {
       "id":8,
       "discount": "10",
-      "url": "model/img/bread.png",
+      "url": "img/bread.png",
       "name": "Bread",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -90,7 +90,7 @@
     {
       "id":9,
       "discount": "10",
-      "url": "model/img/potato.png",
+      "url": "img/potato.png",
       "name": "New Potato (Aloo)",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -101,7 +101,7 @@
     {
       "id":10,
       "discount": "10",
-      "url": "model/img/chips.png",
+      "url": "img/chips.png",
       "name": "Chips",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -112,7 +112,7 @@
     {
       "id":11,
       "discount": "10",
-      "url": "model/img/cold drink.png",
+      "url": "img/cold drink.png",
       "name": "Cold Drink",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -123,7 +123,7 @@
     {
       "id":12,
       "discount": "10",
-      "url": "model/img/noodles.png",
+      "url": "img/noodles.png",
       "name": "Noodles",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -134,7 +134,7 @@
     {
       "id":13,
       "discount": "10",
-      "url": "model/img/tea.png",
+      "url": "img/tea.png",
       "name": "Tea",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -145,7 +145,7 @@
     {
       "id":14,
       "discount": "10",
-      "url": "model/img/cookies.png",
+      "url": "img/cookies.png",
       "name": "Cookies",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -156,7 +156,7 @@
     {
       "id":15,
       "discount": "10",
-      "url": "model/img/chocolates.png",
+      "url": "img/chocolates.png",
       "name": "Chocolates",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -167,7 +167,7 @@
     {
       "id":16,
       "discount": "10",
-      "url": "model/img/atta.png",
+      "url": "img/atta.png",
       "name": "Atta",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -178,7 +178,7 @@
     {
       "id":17,
       "discount": "10",
-      "url": "model/img/dry fruits.png",
+      "url": "img/dry fruits.png",
       "name": "Dry Fruits",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -189,7 +189,7 @@
     {
       "id":18,
       "discount": "10",
-      "url": "model/img/honey.png",
+      "url": "img/honey.png",
       "name": "Honey",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -200,7 +200,7 @@
     {
       "id":19,
       "discount": "10",
-      "url": "model/img/chicken.png",
+      "url": "img/chicken.png",
       "name": "Chicken",
       "sourcedAt": "1 am",
       "quantity": "1kg",
@@ -212,107 +212,107 @@
   "leftTabCategories": [
     {
       "subCategoryName":"Fresh Fruits",
-      "categoryUrl":"model/img/potato.png",
+      "categoryUrl":"img/potato.png",
       "categoryName":"Vegetables and Fruits"
     },
     {
       "subCategoryName":"Fresh Vegetables",
-      "categoryUrl":"model/img/apple.png",
+      "categoryUrl":"img/apple.png",
       "categoryName":"Vegetables and Fruits"
     },
     {
       "subCategoryName":"Exotics",
-      "categoryUrl":"model/img/grapes.png",
+      "categoryUrl":"img/grapes.png",
       "categoryName":"Vegetables and Fruits"
     },
     {
       "subCategoryName":"Seasonal",
-      "categoryUrl":"model/img/carrots.png",
+      "categoryUrl":"img/carrots.png",
       "categoryName":"Vegetables and Fruits"
     },
     {
       "subCategoryName":"Organic & Hydroponic",
-      "categoryUrl":"model/img/kale.png",
+      "categoryUrl":"img/kale.png",
       "categoryName":"Vegetables and Fruits"
     },
     {
       "subCategoryName":"Freshly Cut & Sprouts",
-      "categoryUrl":"model/img/fruits.png",
+      "categoryUrl":"img/fruits.png",
       "categoryName":"Vegetables and Fruits"
     },
     {
       "subCategoryName":"Milk",
-      "categoryUrl":"model/img/milk.png",
+      "categoryUrl":"img/milk.png",
       "categoryName":"Dairy & Breakfast"
     },
     {
       "subCategoryName":"Bread & Pav",
-      "categoryUrl":"model/img/bread.png",
+      "categoryUrl":"img/bread.png",
       "categoryName":"Dairy & Breakfast"
     },
     {
       "subCategoryName":"Eggs",
-      "categoryUrl":"model/img/eggs.png",
+      "categoryUrl":"img/eggs.png",
       "categoryName":"Dairy & Breakfast"
     },
     {
       "subCategoryName":"Breakfast Cereal",
-      "categoryUrl":"model/img/cereal.png",
+      "categoryUrl":"img/cereal.png",
       "categoryName":"Dairy & Breakfast"
     },
     {
       "subCategoryName":"Paneer & Tofu",
-      "categoryUrl":"model/img/tofu.png",
+      "categoryUrl":"img/tofu.png",
       "categoryName":"Dairy & Breakfast"
     },
     {
       "subCategoryName":"Chips",
-      "categoryUrl":"model/img/chips.png",
+      "categoryUrl":"img/chips.png",
       "categoryName":"Munchies"
     },
     {
       "subCategoryName":"Soft Drinks",
-      "categoryUrl":"model/img/cold drink.png",
+      "categoryUrl":"img/cold drink.png",
       "categoryName":"Cold Drinks & Juices"
     },
     {
       "subCategoryName":"Noodles",
-      "categoryUrl":"model/img/noodles.png",
+      "categoryUrl":"img/noodles.png",
       "categoryName":"Instant and Frozen Food"
     },
     {
       "subCategoryName":"Tea",
-      "categoryUrl":"model/img/tea.png",
+      "categoryUrl":"img/tea.png",
       "categoryName":"Tea, Coffee & Health Drinks"
     },
     {
       "subCategoryName":"Cookies",
-      "categoryUrl":"model/img/cookies.png",
+      "categoryUrl":"img/cookies.png",
       "categoryName":"Bakery & Biscuits"
     },
     {
       "subCategoryName":"Chocolates",
-      "categoryUrl":"model/img/chocolates.png",
+      "categoryUrl":"img/chocolates.png",
       "categoryName":"Sweet Tooth"
     },
     {
       "subCategoryName":"Atta",
-      "categoryUrl":"model/img/atta.png",
+      "categoryUrl":"img/atta.png",
       "categoryName":"Atta, Rice & Dal"
     },
     {
       "subCategoryName":"Dry Fruits",
-      "categoryUrl":"model/img/dry fruits.png",
+      "categoryUrl":"img/dry fruits.png",
       "categoryName":"Dry Fruits, Masala & Oil"
     },
     {
       "subCategoryName":"Honey",
-      "categoryUrl":"model/img/honey.png",
+      "categoryUrl":"img/honey.png",
       "categoryName":"Sauces & Spreads"
     },
     {
       "subCategoryName":"Chicken",
-      "categoryUrl":"model/img/chicken.png",
+      "categoryUrl":"img/chicken.png",
       "categoryName":"Chicken, Meat & Fish"
     }
   ],

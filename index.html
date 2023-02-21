@@ -47,7 +47,7 @@
                 </div>
                 <div class="products-container__items-header-right display-flex">
                     <div class="products-container__sort">Sort By</div>
-                    <select name="dropdown" id="sort-dropdown" class="products-container__dropdown" onchange="selectChange()">
+                    <select name="dropdown" id="sort-dropdown" class="products-container__dropdown">
                         <option>Relevance</option>
                         <option>Price (Low to High)</option>
                         <option>Price (High to Low)</option>
@@ -62,7 +62,7 @@
     </div>
     <div class="advertisement-cards display-flex">
         <div class="advertisement-cards__card display-flex">
-            <img src="../model/img/basket.png" alt="" class="advertisement-cards__img" />
+            <img src="./img/basket.png" alt="" class="advertisement-cards__img" />
             <div class="advertisement-cards__title">Superfast Delivery</div>
             <div class="advertisement-cards__content">
                 Get your order delivered to your doorstep at the earliest from dark
@@ -70,14 +70,14 @@
             </div>
         </div>
         <div class="advertisement-cards__card display-flex">
-            <img src="../model/img/basket.png" alt="" class="advertisement-cards__img" />
+            <img src="./img/basket.png" alt="" class="advertisement-cards__img" />
             <div class="advertisement-cards__title">Best Prices & Offers</div>
             <div class="advertisement-cards__content">
                 Best price destination with offers directly from the manufacturers
             </div>
         </div>
         <div class="advertisement-cards__card display-flex">
-            <img src="../model/img/basket.png" alt="" class="advertisement-cards__img" />
+            <img src="./img/basket.png" alt="" class="advertisement-cards__img" />
             <div class="advertisement-cards__title">Wide Assortment</div>
             <div class="advertisement-cards__content">
                 Choose from 5000+ products across food, personal care, household &
@@ -101,10 +101,10 @@
             <div class="footer__download-options display-flex">
                 <div class="footer__download-app">Download App</div>
                 <button class="footer__download-button">
-                    <img src="../model/img/appStore.png" alt="" />
+                    <img src="./img/appStore.png" alt="" />
                 </button>
                 <button class="footer__download-button">
-                    <img src="../model/img/playStore.png" alt="" />
+                    <img src="./img/playStore.png" alt="" />
                 </button>
             </div>
         </div>
@@ -124,11 +124,6 @@
         </div>
     </div>
 </body>
-<script src="../controller/filter.js"></script>
-<script src="../controller/addButton.js"></script>
-<script src="../controller/displayProducts.js"></script>
-<script src="../controller/sortDropdown.js"></script>
-<script src="../controller/updateCart.js"></script>
-<script src="../controller/script.js"></script>
+<script type="module" src="./JS/index.js"></script>
 
 </html>
