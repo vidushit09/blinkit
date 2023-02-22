@@ -2,7 +2,6 @@ import { homepageController } from "../controller/homepageController.js";
 import { homepageModel } from "../model/homepageModel.js";
 
 
-
 let currCategory = "Vegetables and Fruits", currSubCategory = "All", currProducts;
 let productsAll;
 
@@ -57,6 +56,8 @@ function minusone() {
         updatedButton.style.display = "none";
         intCount--;
         window.localStorage.removeItem(id);
+        window.localStorage.removeItem("cartSumTotal");
+        window.localStorage.removeItem("cartTotal");
     }
 
 }
