@@ -43,7 +43,7 @@ function minusone() {
     
     var intCount = Number(this.parentNode.getElementsByClassName("count")[0].innerText);
     var item = JSON.parse(window.localStorage.getItem(id));
-    if (intCount != 1) {
+    if (intCount != 1) { 
         this.parentNode.getElementsByClassName("count")[0].innerText = intCount-1;
         item.quantity--;
         window.localStorage.setItem(id, JSON.stringify(item));
@@ -66,9 +66,9 @@ function minusone() {
 
 }
 function addUpdated(event) {
-    if (event.target.id == "minus-button")
+    if (event.target.id == "plus-button")
         plusone.call(this);
-    else
+    else if(event.target.id == "minus-button")
         minusone.call(this);
 }
 
@@ -308,12 +308,12 @@ const homepageView = {
 
                 const productsContainerItemAddUpdated = document.createElement("div");
                 productsContainerItemAddUpdated.id = "products-container__item-add--updated";
-                productsContainerItemAddUpdated.innerHTML = '<i class="fa fa-minus" aria-hidden="true" id="plus-button"></i>';
+                productsContainerItemAddUpdated.innerHTML = '<i class="fa fa-minus" aria-hidden="true" id="minus-button"></i>';
                 var count = document.createElement("div");
                 count.classList.add("count");
                 count.innerHTML = 1;
                 productsContainerItemAddUpdated.append(count);
-                productsContainerItemAddUpdated.innerHTML += '<i class="fa fa-plus" aria-hidden="true" id="minus-button"></i>';
+                productsContainerItemAddUpdated.innerHTML += '<i class="fa fa-plus" aria-hidden="true" id="plus-button"></i>';
                 productsContainerItemAddUpdated.addEventListener("click", addUpdated.bind(productsContainerItemAddUpdated));
                 productsContainerItemAddUpdated.classList.add("products-container__item--add-updated");
                 productsContainerItemAddUpdated.style.display = "none";
@@ -331,12 +331,12 @@ const homepageView = {
 
                 const productsContainerItemAddUpdated = document.createElement("div");
                 productsContainerItemAddUpdated.id = "products-container__item-add--updated";
-                productsContainerItemAddUpdated.innerHTML = '<i class="fa fa-minus" aria-hidden="true" id="plus-button"></i>';
+                productsContainerItemAddUpdated.innerHTML = '<i class="fa fa-minus" aria-hidden="true" id="minus-button"></i>';
                 var count = document.createElement("div");
                 count.classList.add("count");
                 count.innerHTML = JSON.parse(window.localStorage.getItem(element.id)).quantity;
                 productsContainerItemAddUpdated.append(count);
-                productsContainerItemAddUpdated.innerHTML += '<i class="fa fa-plus" aria-hidden="true" id="minus-button"></i>';
+                productsContainerItemAddUpdated.innerHTML += '<i class="fa fa-plus" aria-hidden="true" id="plus-button"></i>';
                 productsContainerItemAddUpdated.addEventListener("click", addUpdated.bind(productsContainerItemAddUpdated));
 
 
