@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Blinkit</title>
 </head>
+
 <body>
     <div class="navbar display-flex">
         <div class="navbar__left display-flex">
@@ -16,83 +18,35 @@
                 <span class="navbar__logo-green">it</span>
             </div>
             <div class="navbar__delivery-details">
-                <div class="navbar__delivery-time">
-                    Delivery in 10 minutes
-                </div>
+                <div class="navbar__delivery-time">Delivery in 10 minutes</div>
                 <div class="navbar__location">
-                    Delhi, India <i class='fa fa-caret-down'></i>
+                    Delhi, India <i class="fa fa-caret-down"></i>
                 </div>
             </div>
         </div>
         <div class="navbar__right">
             <button class="navbar__login">Login</button>
             <button class="navbar__mycart">
-                <i class='fa fa-shopping-cart'></i>My Cart
+                <i class="fa fa-shopping-cart"></i>
+                <div class="my-cart">My Cart</div>
+                <div class="my-cart-text">
+                </div>
             </button>
-        </div>       
+        </div>
     </div>
-    <ul class="category-list display-flex">
-        <li class="category-list__list-item display-flex">Vegetables & Fruits</li>
-        <li class="category-list__list-item display-flex">Dairy & Breakfast</li>
-        <li class="category-list__list-item display-flex">Munchies</li>
-        <li class="category-list__list-item display-flex">Cold Drinks & Juices</li>
-        <li class="category-list__list-item display-flex">Instant & Frozen Food</li>
-        <li class="category-list__list-item display-flex">Tea, Coffee & Health Drinks</li>
-        <li class="category-list__list-item display-flex">Bakery & Biscuits</li>
-        <li class="category-list__list-item display-flex">More <i class='fa fa-angle-down'></i></li>
+    <ul class="category-list display-flex" id="category-list">
+
     </ul>
     <div class="products-container">
-        <ul class="products-container__category">
-            <li class="products-container__category--active display-flex">
-                <div class="products-container__category__category-image">
-                    <img src="img/potato.png" alt="">
-                </div>
-                All
-            </li>
-            <li class="products-container__category--inactive display-flex">
-                <div class="products-container__category__category-image">
-                    <img src="img/potato.png" alt="">
-                </div>
-                Fresh Vegetables
-            </li>
-            <li class="products-container__category--inactive display-flex">
-                <div class="products-container__category__category-image">
-                    <img src="img/apple.png" alt="">
-                </div>
-                Fresh Fruits
-            </li>
-            <li class="products-container__category--inactive display-flex">
-                <div class="products-container__category__category-image">
-                    <img src="img/grapes.png" alt="">
-                </div>
-                Exotics
-            </li>
-            <li class="products-container__category--inactive display-flex">
-                <div class="products-container__category__category-image">
-                    <img src="img/carrots.png" alt="">
-                </div> 
-                Seasonal
-            </li>
-            <li class="products-container__category--inactive display-flex">
-                <div class="products-container__category__category-image">
-                    <img src="img/kale.png" alt="">
-                </div>
-                Organic & Hydroponic
-            </li>
-            <li class="products-container__category--inactive display-flex">
-                <div class="products-container__category__category-image">
-                    <img src="img/fruits.png" alt="">
-                </div>
-                Freshly Cut & Sprouts
-            </li>
+        <ul class="products-container__category" id="products-container__category">
         </ul>
         <div class="products-container__items-container">
             <div class="products-container__items-header display-flex">
-                <div class="products-container__buy-fresh-online">Buy Fresh Vegetables Online</div>
+                <div class="products-container__buy-fresh-online">
+                    Buy Fresh Vegetables Online
+                </div>
                 <div class="products-container__items-header-right display-flex">
-                    <div class="products-container__sort">
-                        Sort By
-                    </div>
+                    <div class="products-container__sort">Sort By</div>
                     <select name="dropdown" id="sort-dropdown" class="products-container__dropdown">
                         <option>Relevance</option>
                         <option>Price (Low to High)</option>
@@ -101,293 +55,56 @@
                     </select>
                 </div>
             </div>
-            <div class="products-container__items">
-                <div class="products-container__item">
-                    <div class="products-container__item-image">
-                        <div class="products-container__discount">10% OFF</div>
-                        <img src="img/potato.png" alt="">
-                        <div class="products-container__sourced-at">Sourced at 1 AM</div>
-                    </div>
-                    
-                    <div class="products-container__item-name">
-                        New Potato (Aloo)
-                    </div>
-                    <div class="products-container__item-weight">
-                        1 kg
-                    </div>
-                    <div class="products-container__item-footer">
-                        <div class="products-container__price-details">
-                            <div class="products-container__discounted-price">
-                                ₹15
-                            </div>
-                            <div class="products-container__actual-price">
-                                ₹19
-                            </div>
-                        </div>
-                        <button>ADD</button>
-                    </div>
-                    
-                </div> 
-                <div class="products-container__item">
-                    <div class="products-container__item-image">
-                        <div class="products-container__discount">10% OFF</div>
-                        <img src="img/potato.png" alt="">
-                        <div class="products-container__sourced-at">Sourced at 1 AM</div>
-                    </div>
-                    
-                    <div class="products-container__item-name">
-                        New Potato (Aloo)
-                    </div>
-                    <div class="products-container__item-weight">
-                        1 kg
-                    </div>
-                    <div class="products-container__item-footer">
-                        <div class="products-container__price-details">
-                            <div class="products-container__discounted-price">
-                                ₹15
-                            </div>
-                            <div class="products-container__actual-price">
-                                ₹19
-                            </div>
-                        </div>
-                        <button>ADD</button>
-                    </div>
-                    
-                </div> 
-                <div class="products-container__item">
-                    <div class="products-container__item-image">
-                        <div class="products-container__discount">10% OFF</div>
-                        <img src="img/potato.png" alt="">
-                        <div class="products-container__sourced-at">Sourced at 1 AM</div>
-                    </div>
-                    
-                    <div class="products-container__item-name">
-                        New Potato (Aloo)
-                    </div>
-                    <div class="products-container__item-weight">
-                        1 kg
-                    </div>
-                    <div class="products-container__item-footer">
-                        <div class="products-container__price-details">
-                            <div class="products-container__discounted-price">
-                                ₹15
-                            </div>
-                            <div class="products-container__actual-price">
-                                ₹19
-                            </div>
-                        </div>
-                        <button>ADD</button>
-                    </div>
-                    
-                </div> 
-                <div class="products-container__item">
-                    <div class="products-container__item-image">
-                        <div class="products-container__discount">10% OFF</div>
-                        <img src="img/potato.png" alt="">
-                        <div class="products-container__sourced-at">Sourced at 1 AM</div>
-                    </div>
-                    
-                    <div class="products-container__item-name">
-                        New Potato (Aloo)
-                    </div>
-                    <div class="products-container__item-weight">
-                        1 kg
-                    </div>
-                    <div class="products-container__item-footer">
-                        <div class="products-container__price-details">
-                            <div class="products-container__discounted-price">
-                                ₹15
-                            </div>
-                            <div class="products-container__actual-price">
-                                ₹19
-                            </div>
-                        </div>
-                        <button>ADD</button>
-                    </div>
-                    
-                </div> 
-                <div class="products-container__item">
-                    <div class="products-container__item-image">
-                        <div class="products-container__discount">10% OFF</div>
-                        <img src="img/potato.png" alt="">
-                        <div class="products-container__sourced-at">Sourced at 1 AM</div>
-                    </div>
-                    
-                    <div class="products-container__item-name">
-                        New Potato (Aloo)
-                    </div>
-                    <div class="products-container__item-weight">
-                        1 kg
-                    </div>
-                    <div class="products-container__item-footer">
-                        <div class="products-container__price-details">
-                            <div class="products-container__discounted-price">
-                                ₹15
-                            </div>
-                            <div class="products-container__actual-price">
-                                ₹19
-                            </div>
-                        </div>
-                        <button>ADD</button>
-                    </div>
-                    
-                </div> 
-                <div class="products-container__item">
-                    <div class="products-container__item-image">
-                        <div class="products-container__discount">10% OFF</div>
-                        <img src="img/potato.png" alt="">
-                        <div class="products-container__sourced-at">Sourced at 1 AM</div>
-                    </div>
-                    
-                    <div class="products-container__item-name">
-                        New Potato (Aloo)
-                    </div>
-                    <div class="products-container__item-weight">
-                        1 kg
-                    </div>
-                    <div class="products-container__item-footer">
-                        <div class="products-container__price-details">
-                            <div class="products-container__discounted-price">
-                                ₹15
-                            </div>
-                            <div class="products-container__actual-price">
-                                ₹19
-                            </div>
-                        </div>
-                        <button>ADD</button>
-                    </div>
-                    
-                </div> 
-                <div class="products-container__item">
-                    <div class="products-container__item-image">
-                        <div class="products-container__discount">10% OFF</div>
-                        <img src="img/potato.png" alt="">
-                        <div class="products-container__sourced-at">Sourced at 1 AM</div>
-                    </div>
-                    
-                    <div class="products-container__item-name">
-                        New Potato (Aloo)
-                    </div>
-                    <div class="products-container__item-weight">
-                        1 kg
-                    </div>
-                    <div class="products-container__item-footer">
-                        <div class="products-container__price-details">
-                            <div class="products-container__discounted-price">
-                                ₹15
-                            </div>
-                            <div class="products-container__actual-price">
-                                ₹19
-                            </div>
-                        </div>
-                        <button>ADD</button>
-                    </div>
-                    
-                </div> 
-                <div class="products-container__item">
-                    <div class="products-container__item-image">
-                        <div class="products-container__discount">10% OFF</div>
-                        <img src="img/potato.png" alt="">
-                        <div class="products-container__sourced-at">Sourced at 1 AM</div>
-                    </div>
-                    
-                    <div class="products-container__item-name">
-                        New Potato (Aloo)
-                    </div>
-                    <div class="products-container__item-weight">
-                        1 kg
-                    </div>
-                    <div class="products-container__item-footer">
-                        <div class="products-container__price-details">
-                            <div class="products-container__discounted-price">
-                                ₹15
-                            </div>
-                            <div class="products-container__actual-price">
-                                ₹19
-                            </div>
-                        </div>
-                        <button>ADD</button>
-                    </div>
-                    
-                </div> 
-                <div class="products-container__item">
-                    <div class="products-container__item-image">
-                        <div class="products-container__discount">10% OFF</div>
-                        <img src="img/potato.png" alt="">
-                        <div class="products-container__sourced-at">Sourced at 1 AM</div>
-                    </div>
-                    
-                    <div class="products-container__item-name">
-                        New Potato (Aloo)
-                    </div>
-                    <div class="products-container__item-weight">
-                        1 kg
-                    </div>
-                    <div class="products-container__item-footer">
-                        <div class="products-container__price-details">
-                            <div class="products-container__discounted-price">
-                                ₹15
-                            </div>
-                            <div class="products-container__actual-price">
-                                ₹19
-                            </div>
-                        </div>
-                        <button>ADD</button>
-                    </div>
-                    
-                </div> 
+            <div class="products-container__items" id="products-container__items">
 
-                
-            </div> 
+            </div>
         </div>
-
     </div>
     <div class="advertisement-cards display-flex">
         <div class="advertisement-cards__card display-flex">
-            <img src="img/basket.png" alt=""  class="advertisement-cards__img">
-            <div class="advertisement-cards__title">
-                Superfast Delivery
-            </div>
+            <img src="./img/basket.png" alt="" class="advertisement-cards__img" />
+            <div class="advertisement-cards__title">Superfast Delivery</div>
             <div class="advertisement-cards__content">
-                Get your order delivered to your doorstep at the earliest from dark stores near you
+                Get your order delivered to your doorstep at the earliest from dark
+                stores near you
             </div>
         </div>
         <div class="advertisement-cards__card display-flex">
-            <img src="img/basket.png" alt="" class="advertisement-cards__img">
-            <div class="advertisement-cards__title">
-                Best Prices & Offers
-            </div>
+            <img src="./img/basket.png" alt="" class="advertisement-cards__img" />
+            <div class="advertisement-cards__title">Best Prices & Offers</div>
             <div class="advertisement-cards__content">
                 Best price destination with offers directly from the manufacturers
             </div>
         </div>
         <div class="advertisement-cards__card display-flex">
-            <img src="img/basket.png" alt="" class="advertisement-cards__img">
-            <div class="advertisement-cards__title">
-                Wide Assortment
-            </div>
+            <img src="./img/basket.png" alt="" class="advertisement-cards__img" />
+            <div class="advertisement-cards__title">Wide Assortment</div>
             <div class="advertisement-cards__content">
-                Choose from 5000+ products across food, personal care, household & other categories
+                Choose from 5000+ products across food, personal care, household &
+                other categories
             </div>
         </div>
     </div>
     <div class="disclaimer">
-        “Blinkit” is owned & managed by "Blink Commerce Private Limited" (formerly known as Grofers India Private Limited) and is not related, linked or interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a real estate services business operated by “Redstone Consultancy Services Private Limited”.
+        “Blinkit” is owned & managed by "Blink Commerce Private Limited" (formerly
+        known as Grofers India Private Limited) and is not related, linked or
+        interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a
+        real estate services business operated by “Redstone Consultancy Services
+        Private Limited”.
     </div>
     <div class="footer display-flex">
         <div class="footer__left display-flex">
             <div class="footer__copyright">
-                © Blink Commerce Private Limited (formerly known as Grofers India Private Limited), 2016-2023
+                © Blink Commerce Private Limited (formerly known as Grofers India
+                Private Limited), 2016-2023
             </div>
             <div class="footer__download-options display-flex">
-                <div class="footer__download-app">
-                    Download App
-                </div>
+                <div class="footer__download-app">Download App</div>
                 <button class="footer__download-button">
-                    <img src="img/appStore.png" alt="">
+                    <img src="./img/appStore.png" alt="" />
                 </button>
                 <button class="footer__download-button">
-                    <img src="img/playStore.png" alt="">
+                    <img src="./img/playStore.png" alt="" />
                 </button>
             </div>
         </div>
@@ -406,6 +123,7 @@
             </button>
         </div>
     </div>
-    
 </body>
+<script type="module" src="./JS/index.js"></script>
+
 </html>
