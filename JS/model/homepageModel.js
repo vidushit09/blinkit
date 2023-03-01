@@ -12,7 +12,6 @@ let homepageModel={
         return this.topTabCategoryList;
     }, 
     getLeftTabCategoriesData: function(category){
-        console.log(this.leftTabCategoryList)
         return this.leftTabCategoryList.filter(obj=>obj.category==category);
     },
     getProducts: function(){
