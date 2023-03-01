@@ -4,4 +4,5 @@ fetch("../json/data.json")
     .then((response) => response.json())
     .then((data) => {
         homepageController.init(data);
-    });
+    })
+    .catch(error=>{throw error;});

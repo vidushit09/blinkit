@@ -13,9 +13,6 @@ const homepageController= {
     getCategories: function(){
         return homepageModel.getTopTabCategoriesData();
     },
-    getleftTabCategories: function(){
-        return homepageModel.getLeftTabCategoriesData();
-    },
     getleftTabCategories: function(category){
         return homepageModel.getLeftTabCategoriesData(category);
     },
@@ -25,16 +22,16 @@ const homepageController= {
     setProducts: function(subCategory, category, currCategory) {
         var products;
         if (category != "") {
-            products = homepageModel.getProducts().filter(obj => obj.categoryName == category);
+            products = homepageModel.getProducts().filter(obj => obj.category == category);
             if (subCategory != "All")
-                products = products.filter(obj => obj.subCategoryName == subCategory);
+                products = products.filter(obj => obj.subCategory == subCategory);
     
         }
         else {
             if (subCategory != "All")
-                products = homepageModel.getProducts().filter(obj => obj.subCategoryName == subCategory);
+                products = homepageModel.getProducts().filter(obj => obj.subCategory == subCategory);
             else
-                products = homepageModel.getProducts().filter(obj => obj.categoryName == currCategory);
+                products = homepageModel.getProducts().filter(obj => obj.category == currCategory);
     
         }
         return products;

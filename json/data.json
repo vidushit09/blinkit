@@ -3,317 +3,317 @@
     {
       "id":1,
       "discount": "15",
-      "url": "img/potato.png",
+      "thumbnail": "img/potato.png",
       "name": "New Potato (Aloo)",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "21",
-      "categoryName":"Vegetables and Fruits",
-      "subCategoryName":"Fresh Vegetables"
+      "category":"Vegetables and Fruits",
+      "subCategory":"Fresh Vegetables"
     },
     {
       "id":2,
       "discount": "15",
-      "url": "img/potato.png",
+      "thumbnail": "img/potato.png",
       "name": "New Potato (Aloo)",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "25",
-      "categoryName":"Vegetables and Fruits",
-      "subCategoryName":"Fresh Vegetables"
+      "category":"Vegetables and Fruits",
+      "subCategory":"Fresh Vegetables"
     },
     {
       "id":3,
       "discount": "20",
-      "url": "img/potato.png",
+      "thumbnail": "img/potato.png",
       "name": "New Potato (Aloo)",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "19",
-      "categoryName":"Vegetables and Fruits",
-      "subCategoryName":"Seasonal"
+      "category":"Vegetables and Fruits",
+      "subCategory":"Seasonal"
     },
     {
       "id":4,
       "discount": "1",
-      "url": "img/potato.png",
+      "thumbnail": "img/potato.png",
       "name": "New Potato (Aloo)",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "19",
-      "categoryName":"Vegetables and Fruits",
-      "subCategoryName":"Seasonal"
+      "category":"Vegetables and Fruits",
+      "subCategory":"Seasonal"
     },
     {
       "id":5,
       "discount": "10",
-      "url": "img/potato.png",
+      "thumbnail": "img/potato.png",
       "name": "New Potato (Aloo)",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "19",
-      "categoryName":"Vegetables and Fruits",
-      "subCategoryName":"Exotics"
+      "category":"Vegetables and Fruits",
+      "subCategory":"Exotics"
     },
     {"id":6,
       "discount": "10",
-      "url": "img/milk.png",
+      "thumbnail": "img/milk.png",
       "name": "Milk",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "32",
-      "categoryName":"Dairy & Breakfast",
-      "subCategoryName":"Milk"
+      "category":"Dairy & Breakfast",
+      "subCategory":"Milk"
     },
     {
       "id":7,
       "discount": "10",
-      "url": "img/bread.png",
+      "thumbnail": "img/bread.png",
       "name": "Pav",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "35",
-      "categoryName":"Dairy & Breakfast",
-      "subCategoryName":"Bread & Pav"
+      "category":"Dairy & Breakfast",
+      "subCategory":"Bread & Pav"
     },
     {
       "id":8,
       "discount": "10",
-      "url": "img/bread.png",
+      "thumbnail": "img/bread.png",
       "name": "Bread",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "30",
-      "categoryName":"Dairy & Breakfast",
-      "subCategoryName":"Bread & Pav"
+      "category":"Dairy & Breakfast",
+      "subCategory":"Bread & Pav"
     },
     {
       "id":9,
       "discount": "10",
-      "url": "img/potato.png",
+      "thumbnail": "img/potato.png",
       "name": "New Potato (Aloo)",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "19",
-      "categoryName":"Vegetables and Fruits",
-      "subCategoryName":"Fresh Fruits"
+      "category":"Vegetables and Fruits",
+      "subCategory":"Fresh Fruits"
     },
     {
       "id":10,
       "discount": "10",
-      "url": "img/chips.png",
+      "thumbnail": "img/chips.png",
       "name": "Chips",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "19",
-      "categoryName":"Munchies",
-      "subCategoryName":"Chips"
+      "category":"Munchies",
+      "subCategory":"Chips"
     },
     {
       "id":11,
       "discount": "10",
-      "url": "img/cold drink.png",
+      "thumbnail": "img/cold drink.png",
       "name": "Cold Drink",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "19",
-      "categoryName":"Cold Drinks & Juices",
-      "subCategoryName":"Soft Drinks"
+      "category":"Cold Drinks & Juices",
+      "subCategory":"Soft Drinks"
     },
     {
       "id":12,
       "discount": "10",
-      "url": "img/noodles.png",
+      "thumbnail": "img/noodles.png",
       "name": "Noodles",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "19",
-      "categoryName":"Instant and Frozen Food",
-      "subCategoryName":"Noodles"
+      "category":"Instant and Frozen Food",
+      "subCategory":"Noodles"
     },
     {
       "id":13,
       "discount": "10",
-      "url": "img/tea.png",
+      "thumbnail": "img/tea.png",
       "name": "Tea",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "19",
-      "categoryName":"Tea, Coffee & Health Drinks",
-      "subCategoryName":"Tea"
+      "category":"Tea, Coffee & Health Drinks",
+      "subCategory":"Tea"
     },
     {
       "id":14,
       "discount": "10",
-      "url": "img/cookies.png",
+      "thumbnail": "img/cookies.png",
       "name": "Cookies",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "19",
-      "categoryName":"Bakery & Biscuits",
-      "subCategoryName":"Cookies"
+      "category":"Bakery & Biscuits",
+      "subCategory":"Cookies"
     },
     {
       "id":15,
       "discount": "10",
-      "url": "img/chocolates.png",
+      "thumbnail": "img/chocolates.png",
       "name": "Chocolates",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "19",
-      "categoryName":"Sweet Tooth",
-      "subCategoryName":"Chocolates"
+      "category":"Sweet Tooth",
+      "subCategory":"Chocolates"
     },
     {
       "id":16,
       "discount": "10",
-      "url": "img/atta.png",
+      "thumbnail": "img/atta.png",
       "name": "Atta",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "19",
-      "categoryName":"Atta, Rice & Dal",
-      "subCategoryName":"Atta"
+      "category":"Atta, Rice & Dal",
+      "subCategory":"Atta"
     },
     {
       "id":17,
       "discount": "10",
-      "url": "img/dry fruits.png",
+      "thumbnail": "img/dry fruits.png",
       "name": "Dry Fruits",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "19",
-      "categoryName":"Dry Fruits, Masala & Oil",
-      "subCategoryName":"Dry Fruits"
+      "category":"Dry Fruits, Masala & Oil",
+      "subCategory":"Dry Fruits"
     },
     {
       "id":18,
       "discount": "10",
-      "url": "img/honey.png",
+      "thumbnail": "img/honey.png",
       "name": "Honey",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "19",
-      "categoryName":"Sauces & Spreads",
-      "subCategoryName":"Honey"
+      "category":"Sauces & Spreads",
+      "subCategory":"Honey"
     },
     {
       "id":19,
       "discount": "10",
-      "url": "img/chicken.png",
+      "thumbnail": "img/chicken.png",
       "name": "Chicken",
       "sourcedAt": "1 am",
-      "quantity": "1kg",
+      "quantity": "1",
       "price": "19",
-      "categoryName":"Chicken, Meat & Fish",
-      "subCategoryName":"Chicken"
+      "category":"Chicken, Meat & Fish",
+      "subCategory":"Chicken"
     }
   ],
   "leftTabCategories": [
     {
-      "subCategoryName":"Fresh Fruits",
-      "categoryUrl":"img/potato.png",
-      "categoryName":"Vegetables and Fruits"
+      "subCategory":"Fresh Fruits",
+      "categoryThumbnail":"img/potato.png",
+      "category":"Vegetables and Fruits"
     },
     {
-      "subCategoryName":"Fresh Vegetables",
-      "categoryUrl":"img/apple.png",
-      "categoryName":"Vegetables and Fruits"
+      "subCategory":"Fresh Vegetables",
+      "categoryThumbnail":"img/apple.png",
+      "category":"Vegetables and Fruits"
     },
     {
-      "subCategoryName":"Exotics",
-      "categoryUrl":"img/grapes.png",
-      "categoryName":"Vegetables and Fruits"
+      "subCategory":"Exotics",
+      "categoryThumbnail":"img/grapes.png",
+      "category":"Vegetables and Fruits"
     },
     {
-      "subCategoryName":"Seasonal",
-      "categoryUrl":"img/carrots.png",
-      "categoryName":"Vegetables and Fruits"
+      "subCategory":"Seasonal",
+      "categoryThumbnail":"img/carrots.png",
+      "category":"Vegetables and Fruits"
     },
     {
-      "subCategoryName":"Organic & Hydroponic",
-      "categoryUrl":"img/kale.png",
-      "categoryName":"Vegetables and Fruits"
+      "subCategory":"Organic & Hydroponic",
+      "categoryThumbnail":"img/kale.png",
+      "category":"Vegetables and Fruits"
     },
     {
-      "subCategoryName":"Freshly Cut & Sprouts",
-      "categoryUrl":"img/fruits.png",
-      "categoryName":"Vegetables and Fruits"
+      "subCategory":"Freshly Cut & Sprouts",
+      "categoryThumbnail":"img/fruits.png",
+      "category":"Vegetables and Fruits"
     },
     {
-      "subCategoryName":"Milk",
-      "categoryUrl":"img/milk.png",
-      "categoryName":"Dairy & Breakfast"
+      "subCategory":"Milk",
+      "categoryThumbnail":"img/milk.png",
+      "category":"Dairy & Breakfast"
     },
     {
-      "subCategoryName":"Bread & Pav",
-      "categoryUrl":"img/bread.png",
-      "categoryName":"Dairy & Breakfast"
+      "subCategory":"Bread & Pav",
+      "categoryThumbnail":"img/bread.png",
+      "category":"Dairy & Breakfast"
     },
     {
-      "subCategoryName":"Eggs",
-      "categoryUrl":"img/eggs.png",
-      "categoryName":"Dairy & Breakfast"
+      "subCategory":"Eggs",
+      "categoryThumbnail":"img/eggs.png",
+      "category":"Dairy & Breakfast"
     },
     {
-      "subCategoryName":"Breakfast Cereal",
-      "categoryUrl":"img/cereal.png",
-      "categoryName":"Dairy & Breakfast"
+      "subCategory":"Breakfast Cereal",
+      "categoryThumbnail":"img/cereal.png",
+      "category":"Dairy & Breakfast"
     },
     {
-      "subCategoryName":"Paneer & Tofu",
-      "categoryUrl":"img/tofu.png",
-      "categoryName":"Dairy & Breakfast"
+      "subCategory":"Paneer & Tofu",
+      "categoryThumbnail":"img/tofu.png",
+      "category":"Dairy & Breakfast"
     },
     {
-      "subCategoryName":"Chips",
-      "categoryUrl":"img/chips.png",
-      "categoryName":"Munchies"
+      "subCategory":"Chips",
+      "categoryThumbnail":"img/chips.png",
+      "category":"Munchies"
     },
     {
-      "subCategoryName":"Soft Drinks",
-      "categoryUrl":"img/cold drink.png",
-      "categoryName":"Cold Drinks & Juices"
+      "subCategory":"Soft Drinks",
+      "categoryThumbnail":"img/cold drink.png",
+      "category":"Cold Drinks & Juices"
     },
     {
-      "subCategoryName":"Noodles",
-      "categoryUrl":"img/noodles.png",
-      "categoryName":"Instant and Frozen Food"
+      "subCategory":"Noodles",
+      "categoryThumbnail":"img/noodles.png",
+      "category":"Instant and Frozen Food"
     },
     {
-      "subCategoryName":"Tea",
-      "categoryUrl":"img/tea.png",
-      "categoryName":"Tea, Coffee & Health Drinks"
+      "subCategory":"Tea",
+      "categoryThumbnail":"img/tea.png",
+      "category":"Tea, Coffee & Health Drinks"
     },
     {
-      "subCategoryName":"Cookies",
-      "categoryUrl":"img/cookies.png",
-      "categoryName":"Bakery & Biscuits"
+      "subCategory":"Cookies",
+      "categoryThumbnail":"img/cookies.png",
+      "category":"Bakery & Biscuits"
     },
     {
-      "subCategoryName":"Chocolates",
-      "categoryUrl":"img/chocolates.png",
-      "categoryName":"Sweet Tooth"
+      "subCategory":"Chocolates",
+      "categoryThumbnail":"img/chocolates.png",
+      "category":"Sweet Tooth"
     },
     {
-      "subCategoryName":"Atta",
-      "categoryUrl":"img/atta.png",
-      "categoryName":"Atta, Rice & Dal"
+      "subCategory":"Atta",
+      "categoryThumbnail":"img/atta.png",
+      "category":"Atta, Rice & Dal"
     },
     {
-      "subCategoryName":"Dry Fruits",
-      "categoryUrl":"img/dry fruits.png",
-      "categoryName":"Dry Fruits, Masala & Oil"
+      "subCategory":"Dry Fruits",
+      "categoryThumbnail":"img/dry fruits.png",
+      "category":"Dry Fruits, Masala & Oil"
     },
     {
-      "subCategoryName":"Honey",
-      "categoryUrl":"img/honey.png",
-      "categoryName":"Sauces & Spreads"
+      "subCategory":"Honey",
+      "categoryThumbnail":"img/honey.png",
+      "category":"Sauces & Spreads"
     },
     {
-      "subCategoryName":"Chicken",
-      "categoryUrl":"img/chicken.png",
-      "categoryName":"Chicken, Meat & Fish"
+      "subCategory":"Chicken",
+      "categoryThumbnail":"img/chicken.png",
+      "category":"Chicken, Meat & Fish"
     }
   ],
   "topTabCategoryList":[

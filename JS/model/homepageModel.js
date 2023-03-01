@@ -1,6 +1,6 @@
 let homepageModel={
     topTabCategoryList :[],
-    leftTabCategoryList: {},
+    leftTabCategoryList: [],
     products: {},
     
     setData: function(data) {
@@ -10,12 +10,10 @@ let homepageModel={
     },
     getTopTabCategoriesData: function(){
         return this.topTabCategoryList;
-    },
-    getLeftTabCategoriesData: function(){
-        return this.leftTabCategoryList;
-    },
+    }, 
     getLeftTabCategoriesData: function(category){
-        return this.leftTabCategoryList.filter(obj=>obj.categoryName==category);
+        console.log(this.leftTabCategoryList)
+        return this.leftTabCategoryList.filter(obj=>obj.category==category);
     },
     getProducts: function(){
         return this.products;

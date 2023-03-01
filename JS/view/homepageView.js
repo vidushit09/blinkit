@@ -45,7 +45,7 @@ function minusone() {
     var item = JSON.parse(window.localStorage.getItem(id));
     if (intCount != 1) { 
         this.parentNode.getElementsByClassName("count")[0].innerText = intCount-1;
-        item.quantity--;
+        item.quantity--;     
         window.localStorage.setItem(id, JSON.stringify(item));
     }
     else if(window.localStorage.getItem("cartTotal")=='1'){
@@ -195,7 +195,7 @@ const homepageView = {
             "products-container__category__category-image"
         );
         const productsContainerCategoryImageImg = document.createElement("img");
-        productsContainerCategoryImageImg.src = "http://127.0.0.1:5500/" + subCategories[0].categoryUrl;
+        productsContainerCategoryImageImg.src = "http://127.0.0.1:5500/" + subCategories[0].categoryThumbnail;
         productsContainerCategoryImageImg.classList.add("products-container__category-image-img");
         productsContainerCategoryImage.append(productsContainerCategoryImageImg);
         productsContainerCategoryActive.append(productsContainerCategoryImage);
@@ -215,13 +215,13 @@ const homepageView = {
             );
             const productsContainerCategoryImageImg = document.createElement("img");
             productsContainerCategoryImageImg.src =
-                "http://127.0.0.1:5500/" + element.categoryUrl;
+                "http://127.0.0.1:5500/" + element.categoryThumbnail;
             productsContainerCategoryImageImg.classList.add(
                 "products-container__category-image-img"
             );
             productsContainerCategoryImage.append(productsContainerCategoryImageImg);
             productsContainerCategoryInactive.append(productsContainerCategoryImage);
-            productsContainerCategoryInactive.innerHTML += element.subCategoryName;
+            productsContainerCategoryInactive.innerHTML += element.subCategory;
             productsContainerCategory.append(productsContainerCategoryInactive);
 
         });
@@ -249,7 +249,7 @@ const homepageView = {
             productsContainerDiscount.innerHTML += element.discount + "% OFF";
             productContainerItemImage.append(productsContainerDiscount);
             const productContainerItemImg = document.createElement("img");
-            productContainerItemImg.src = "http://127.0.0.1:5500/" + element.url;
+            productContainerItemImg.src = "http://127.0.0.1:5500/" + element.thumbnail;
             productContainerItemImg.classList.add("product-container__item--img");
             productContainerItemImage.append(productContainerItemImg);
             const productsContainerSourcedAt = document.createElement("div");
@@ -270,7 +270,8 @@ const homepageView = {
             productsContainerItemWeight.classList.add(
                 "products-container__item-weight"
             );
-            productsContainerItemWeight.innerHTML += element.quantity;
+            productsContainerItemWeight.innerHTML = element.quantity ;
+            productsContainerItemWeight.innerHTML+= " kg"
             productsContainerItem.append(productsContainerItemWeight);
 
             const productsContainerItemFooter = document.createElement("div");
